@@ -29,7 +29,7 @@ For electron beams, the exchange effects are included, according to Salvat and M
 
 The results (DESCS for both spin-polarized and spin-unpolarized beams, S, T, and U parameters, atomic density, and cumulative probability) are saved in the folder RESULTS and are graphically represented in the folder FIGURES.
 
-Comparisons with calculations of the DESCS of spin-unpolarized electron beams (atomic numbers: 18, 29, 36, and 79; electron energies: 1keV, 4keV, and 16keV) by Riley et al. (M.E. Riley, J. MacCallum, and F. Biggs, Atomic Data and Nuclear Data Tables, Vol. 15, pp. 443-476, 1975) are presented in the folder COMPARISONS . 
+Comparisons of POLARe selected calculations of the DESCS of spin-unpolarized electron beams (atomic numbers: 18, 29, 36, and 79; electron energies: 1keV, 4keV, and 16keV) with the calculations of Riley et al. (M.E. Riley, J. MacCallum, and F. Biggs, Atomic Data and Nuclear Data Tables, Vol. 15, pp. 443-476, 1975) are presented in the folder COMPARISONS . 
 
 Compile using the following command:
 
