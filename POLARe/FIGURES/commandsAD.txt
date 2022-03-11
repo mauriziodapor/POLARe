@@ -1,0 +1,7 @@
+set terminal pdf
+set output 'FIGURES/AD-Z=54.pdf' 
+set title 'Z=54' 
+unset key 
+set xlabel 'r (10^{-8}cm)' 
+set ylabel '4 {/Symbol p} r^2 {/Symbol r} (10^{8}cm^{-1})' 
+plot 'RESULTS/AD-Z=54.txt' w l 
