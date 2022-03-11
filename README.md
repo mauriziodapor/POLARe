@@ -29,3 +29,12 @@ The "INPUT/screening.txt" file contains all the parameters necessary for calcula
 For electron beams, the exchange effects are included, according to Salvat and Mayol (F. Salvat and R. Mayol, Computer Physics Communications, Vol. 74, pp. 358-374, 1993), using the Furness and McCarthy semiphenomenological optical model (J.B. Furness and I.E. McCarthy, Journal of Physics B: Atomic and Molecular Physics, Vol. 6, pp. 2280- 229 1, 1973).
 
 The results (DESCS for both spin-polarized and spin-unpolarized beams, S, T, and U parameters, atomic density, and cumulative probability) are saved in the folder RESULTS and are graphically represented in the folder FIGURES.
+
+Compile using the following command:
+
+gcc -O2 -g POLARe.c -o POLARe -lgsl -lgslcblas -lm
+
+Run using the following command:
+
+./POLARe
+
