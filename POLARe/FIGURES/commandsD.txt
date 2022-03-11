@@ -1,8 +1,0 @@
-set terminal pdf
-set output 'FIGURES/D-Z=79-E=1000eV.pdf' 
-set logscale y 
-set title 'Z=79, E=1000eV' 
-unset key 
-set xlabel 'Scattering Angle (deg)' 
-set ylabel 'DESCS (10^{-16}cm^2/sr)' 
-plot 'RESULTS/D-Z=79-E=1000eV.txt' w l 
