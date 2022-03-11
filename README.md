@@ -22,7 +22,7 @@ Pz 0
 
 Azimuth(deg) 90
 
-As the z axis was chosen along the direction of particle incidence, when Pz=1 the spin-polarization of the beam is longitudinal. When the beam is spin-polarized with transverse polarization, i.e. when Px and/or Py are set to be different from zero, the DESCS also depends on the azimuthal angle (and on the spin-polarization as well). 
+As the z axis was chosen along the direction of particle incidence, when Pz=1 the spin-polarization of the beam is longitudinal. When the beam is spin-polarized with transverse polarization, i.e. when Px and/or Py are set to be different from zero, the DESCS depends on the azimuthal angle and on the spin-polarization as well. 
 
 The "INPUT/screening.txt" file contains all the parameters necessary for calculating the screening function. From Z=1 to Z=17: Best fit of the Hartree-Fock atomic model (H.L. Cox Jr. and R.A. Bonham, The Journal of Chemical Physics, Vol. 47, pp. 2599-2608, 1967). From Z=18 to Z=54: Best fit of the Dirac-Hartree-Fock-Slater atomic model (H.L. Cox Jr. and R.A. Bonham, The Journal of Chemical Physics, Vol. 47, pp. 2599-2608, 1967). From Z=55 to Z=92: Best fit of the Dirac-Hartree-Fock-Slater atomic model (F. Salvat, J.D. Martinez, R. Mayol, J. Parellada, Physical Review A, Vol. 36, pp. 467-474, 1987). 
 
