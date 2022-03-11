@@ -1,7 +1,0 @@
-Z 79
-E(eV) 1000
-Positron/Electron(0/1) 1 
-Px 0
-Py 0
-Pz 1
-Azimuth(deg) 0
