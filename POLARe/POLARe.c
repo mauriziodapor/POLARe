@@ -5,7 +5,7 @@
  Exchange potential energy (only for electron projectiles): Furness and McCarty (1973)
  Statistical mixture of spin states: Kessler (1985), Burke and Joachain (1995)
  
- M. Dapor, March 2022 */
+ Maurizio Dapor, March 2022 */
 
 #include<stdio.h>
 #include<math.h>
