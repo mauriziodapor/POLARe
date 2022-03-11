@@ -40,4 +40,5 @@ Run using the following command:
 ./POLARe
 
 Details about POLARe (theory and numerical approach) can be found in the book:
+
 Maurizio Dapor. Electron–Atom Collisions: Quantum-Relativistic Theory and Exercises, Berlin, Boston: De Gruyter, 2022. https://doi.org/10.1515/9783110675375
