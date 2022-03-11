@@ -1,10 +1,11 @@
-/* POLARe.C:
- Partial wave solution of quantum scattering. Dirac equation. Electrons and positrons projectiles.
- Screening function: Cox and Bonham (Z<=54), Salvat et al. (Z>54)
- Exchange potential energy (only for electron projectiles): Furness and McCarty
- Statistical mixture of spin states.
- Arbitrary initial spin direction.
- M. Dapor, January 2022 */
+/* POLARe.c
+
+ Relativistic partial wave solution of quantum scattering. Dirac equation. Electrons and positrons projectiles.
+ Screening function: Cox and Bonham (1967) (Z<=54), Salvat et al. (1987) (Z>54)
+ Exchange potential energy (only for electron projectiles): Furness and McCarty (1973)
+ Statistical mixture of spin states: Kessler (1985), Burke and Joachain (1995)
+ 
+ M. Dapor, March 2022 */
 
 #include<stdio.h>
 #include<math.h>
