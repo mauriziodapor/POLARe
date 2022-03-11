@@ -1,0 +1,7 @@
+set terminal pdf
+set output 'FIGURES/AD-Z=79.pdf' 
+set title 'Z=79' 
+unset key 
+set xlabel 'r (10^{-8}cm)' 
+set ylabel '4 pi r^2 rho (10^{8}cm^{-1})' 
+plot 'RESULTS/AD-Z=79.txt' w l 
