@@ -5,9 +5,9 @@ Differential elastic scattering cross-section of spin-polarized positron and ele
 POLARe is a c code which allows to calculate the differential elastic scattering cross-section (DESCS) of positrons and electrons impinging on neutral atoms.
 It uses the relativistic partial wave expansion method (Mott theory).
 
-The user should include the input data in the "INPUT/input.txt" file. For example, for calculating the DESCS of 1000 eV electrons in Xe (atomic number Z=54), the "INPUT/input.txt" file can contain the following information:
+The user should include the input data in the "INPUT/input.txt" file. For example, for calculating the DESCS of 1000 eV electrons in U (atomic number Z=92), the "INPUT/input.txt" file can contain the following information:
 
-Z 54
+Z 92
 
 E(eV) 1000
 
@@ -29,7 +29,7 @@ For electron beams, the exchange effects are included, according to Salvat and M
 
 The results (DESCS for both spin-polarized and spin-unpolarized beams, S, T, and U parameters, atomic density, and cumulative probability) are saved in the folder RESULTS and are graphically represented in the folder FIGURES.
 
-Comparisons of POLARe selected calculations of the DESCS of spin-unpolarized electron beams (atomic numbers: 18, 29, 36, and 79; electron energies: 1keV, 4keV, and 16keV) with the calculations of Riley et al. (M.E. Riley, J. MacCallum, and F. Biggs, Atomic Data and Nuclear Data Tables, Vol. 15, pp. 443-476, 1975) are presented in the folder COMPARISONS . 
+Comparisons of POLARe selected calculations of the DESCS of spin-unpolarized electron beams (atomic numbers: 18, 29, 36, and 79; electron energies: 1keV and 4keV) with the calculations of Riley et al. (M.E. Riley, J. MacCallum, and F. Biggs, Atomic Data and Nuclear Data Tables, Vol. 15, pp. 443-476, 1975) are presented in the folder COMPARISONS . 
 
 Compile using the following command:
 
