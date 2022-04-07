@@ -1,0 +1,9 @@
+set terminal pdf
+set output 'FIGURES/D-Z=92-E=1000eV.pdf' 
+set logscale y 
+set title 'Z=92, E=1000eV' 
+unset key 
+set termoption enhanced
+set xlabel '{/Symbol q} (deg)' 
+set ylabel 'd{/Symbol s}/d{/Symbol W} (10^{-16}cm^2/sr)' 
+plot 'RESULTS/D-Z=92-E=1000eV.txt' w l 
