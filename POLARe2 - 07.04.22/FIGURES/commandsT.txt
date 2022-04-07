@@ -1,8 +1,0 @@
-set terminal pdf
-set output 'FIGURES/T-Z=92-E=1000eV.pdf' 
-set title 'Z=92, E=1000eV' 
-unset key 
-set termoption enhanced
-set xlabel '{/Symbol q} (deg)' 
-set ylabel 'T' 
-plot 'RESULTS/T-Z=92-E=1000eV.txt' w l 
