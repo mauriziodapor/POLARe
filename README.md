@@ -30,7 +30,11 @@ For electron beams, the exchange effects are included, according to Salvat and M
 
 The results (DESCS for both spin-polarized and spin-unpolarized beams, S, T, and U parameters, atomic density, and cumulative probability) are saved in the folder RESULTS and are graphically represented in the folder FIGURES.
 
-Comparisons of POLARe selected calculations of the DESCS of spin-unpolarized electron beams (atomic numbers: 18, 29, 36, and 79; electron energies: 1keV and 4keV) with the calculations of Riley et al. (M.E. Riley, J. MacCallum, and F. Biggs, Atomic Data and Nuclear Data Tables, Vol. 15, pp. 443-476, 1975) are presented in the folder COMPARISONS . 
+Comparisons of POLARe selected calculations of the DESCS of spin-unpolarized electron beams (atomic numbers: 18, 29, 36, and 79; electron energies: 1keV and 4keV) with the calculations of Riley et al. (M.E. Riley, J. MacCallum, and F. Biggs, Atomic Data and Nuclear Data Tables, Vol. 15, pp. 443-476, 1975) are presented in the folder COMPARISONS. 
+
+Details about POLARe (theory and numerical approach) can be found in the book:
+
+Maurizio Dapor. Electron–Atom Collisions: Quantum-Relativistic Theory and Exercises, Berlin, Boston: De Gruyter, 2022. https://doi.org/10.1515/9783110675375
 
 Compile using the following command:
 
@@ -40,6 +44,15 @@ Run using the following command:
 
 ./POLARe
 
-Details about POLARe (theory and numerical approach) can be found in the book:
+Note that POLARe2 includes the correlation-polarization potential according to F. Salvat, Physical Review A 68, 012708 (2003).
+Long-range polarization for both electrons and positrons: Buckingham potential.
+Short-range polarization potential (electrons): J.P. Perdew and A. Zunger, Physical Review B 23, 5048 (1981).
+Short-range polarization potential (positrons): A. Jain, Physical Review A 41, 2437 (1990).
 
-Maurizio Dapor. Electron–Atom Collisions: Quantum-Relativistic Theory and Exercises, Berlin, Boston: De Gruyter, 2022. https://doi.org/10.1515/9783110675375
+Compile using the following command:
+
+gcc -O2 -g POLARe2.c -o POLARe2 -lgsl -lgslcblas -lm
+
+Run using the following command:
+
+./POLARe2
