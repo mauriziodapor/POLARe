@@ -56,3 +56,13 @@ gcc -O2 -g POLARe2.c -o POLARe2 -lgsl -lgslcblas -lm
 Run using the following command:
 
 ./POLARe2
+
+The SPAS program (Spin-Polarization After Scattering) allows to calculate the spin-polarization of electron and positron beams after elastic scattering. It requires in input the functions S, T, and U (which can be obtained using POLARe or POLARe2), the initial spin-polarization, and the azimuthal angle.
+
+Compile using the following command:
+
+gcc -O2 -g SPAS.c -o SPAS -lgsl -lgslcblas -lm
+
+Run using the following command:
+
+./SPAS
