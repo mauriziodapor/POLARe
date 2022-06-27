@@ -1,0 +1,7 @@
+INPUT/S-Z=54-E=900eV.txt
+INPUT/T-Z=54-E=900eV.txt
+INPUT/U-Z=54-E=900eV.txt
+phi 60
+Px 0.1
+Py 0.2
+Pz 0.3
