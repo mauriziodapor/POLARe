@@ -8,6 +8,7 @@ It uses the relativistic partial wave expansion method (Mott theory).
 
 The user should include the input data in the "INPUT/input.txt" file. For example, for calculating the DESCS of 1000 eV electrons in U (atomic number Z=92, transverse spin-polarization), the "INPUT/input.txt" file can contain the following information:
 
+------------------------
 
 Z 92
 
@@ -23,6 +24,7 @@ Pz 0
 
 Azimuth(deg) 90
 
+------------------------
 
 As the z axis was chosen along the direction of particle incidence, when Pz=1 the spin-polarization of the beam is longitudinal. When the beam is spin-polarized with transverse polarization, i.e. when Px and/or Py are set to be different from zero, the DESCS depends on the azimuthal angle and on the spin-polarization as well. 
 
