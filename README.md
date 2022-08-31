@@ -6,7 +6,7 @@ POLARe is a c code which allows to calculate the differential elastic scattering
 
 It uses the relativistic partial wave expansion method (Mott theory).
 
-The user should include the input data in the "INPUT/input.txt" file. For example, for calculating the DESCS of 1000 eV electrons in U (atomic number Z = 92) with transverse spin-polarization Px = 1 and azimuth angle = 90 deg, the "INPUT/input.txt" file should contain the following information:
+The user should include the input data in the "INPUT/input.txt" file. For example, for calculating the DESCS of 1000 eV electrons in U (atomic number Z = 92) with transverse spin-polarization Px = 1 and azimuthal angle = 90 deg, the "INPUT/input.txt" file should contain the following information:
 
 ------------------------
 
