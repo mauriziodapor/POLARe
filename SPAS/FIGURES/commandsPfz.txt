@@ -1,0 +1,9 @@
+set terminal pdf
+set output 'FIGURES/Pfz.pdf' 
+set title 'Spin-polarization after scattering' 
+unset key 
+set termoption enhanced
+set xlabel '{/Symbol:Italic q} (deg) 
+set ylabel 'P^f_z({/Symbol:Italic q})' 
+set xrange [0:180] 
+plot 'RESULTS/Pfz.txt' w l 
