@@ -1,0 +1,8 @@
+set terminal pdf
+set output 'FIGURES/COMP-Z=79-E=1000eV.pdf' 
+set logscale y 
+set title 'Z=79, E=1000eV' 
+set termoption enhanced
+set xlabel '{/Symbol q} (deg)' 
+set ylabel 'd{/Symbol s}/d{/Symbol W} (10^{-16}cm^2/sr)' 
+plot 'RESULTS/D-Z=79-E=1000eV.txt' w l title 'unpolarized beam','RESULTS/Dp-Z=79-E=1000eV.txt' w l title 'polarized beam' 
