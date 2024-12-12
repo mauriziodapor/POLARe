@@ -1,7 +1,0 @@
-set terminal pdf
-set output 'FIGURES/S-Z=92-E=1000eV.pdf' 
-set title 'Z=92, E=1000eV' 
-unset key 
-set xlabel 'Scattering Angle (deg)' 
-set ylabel 'S' 
-plot 'RESULTS/S-Z=92-E=1000eV.txt' w l 
