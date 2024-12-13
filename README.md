@@ -10,7 +10,8 @@ The user should record the input data in the file "INPUT/input.txt". For example
 
 ------------------------
 
-Z 92//
+Z 92
+
 E(eV) 1000
 
 Positron/Electron(0/1) 1
