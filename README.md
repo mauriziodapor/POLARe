@@ -32,9 +32,9 @@ The "INPUT/screening.txt" file contains all the parameters required to calculate
 
 For electron beams, the exchange effects according to Salvat and Mayol [F. Salvat and R. Mayol, Computer Physics Communications 74, 358 (1993)] are considered using the semiphenomenological optical model of Furness and McCarthy [J.B. Furness and I.E. McCarthy, Journal of Physics B: Atomic and Molecular Physics 6, 2280 (1973)].
 
-The results (DESCS for both spin-polarized and spin-unpolarized beams, S, T and U parameters, atomic density and cumulative probability) are stored in the RESULTS folder and displayed graphically in the FIGURES folder.
+The results (DESCS for both spin-polarized and spin-unpolarized beams, S, T and U parameters, atomic density, and cumulative probability) are stored in the RESULTS folder and displayed graphically in the FIGURES folder.
 
-Comparisons of selected POLARe calculations of the DESCS of spin-unpolarized electron beams (atomic numbers: 18, 29, 36 and 79; electron energies: 1keV and 4keV) with the calculations of Riley et al [M.E. Riley, J. MacCallum, and F. Biggs, Atomic Data and Nuclear Data Tables 15, 443 (1975)] can be found in the COMPARISONS folder. 
+Comparisons of selected POLARe calculations of the DESCS of spin-unpolarized electron beams (atomic numbers: 18, 29, 36, and 79; electron energies: 1keV and 4keV) with the calculations of Riley et al [M.E. Riley, J. MacCallum, and F. Biggs, Atomic Data and Nuclear Data Tables 15, 443 (1975)] can be found in the COMPARISONS folder. 
 
 Details on POLARe (theory and numerical approach) can be found in the book:
 
