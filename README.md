@@ -1,6 +1,6 @@
 # POLARe 
 
-Differential elastic scattering cross-section of spin-polarized positron and electron beams impinging on neutral atoms
+# Differential elastic scattering cross-section of spin-polarized positron and electron beams impinging on neutral atoms
 
 POLARe is a C code that allows you to calculate the differential elastic scattering cross section (DESCS) of positrons and electrons hitting neutral atoms.
 
