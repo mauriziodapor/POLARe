@@ -2,11 +2,11 @@
 
 # Differential elastic scattering cross-section of spin-polarized positron and electron beams impinging on neutral atoms
 
-POLARe is a C code that allows you to calculate the differential elastic scattering cross section (DESCS) of positrons and electrons hitting neutral atoms.
+POLARe is a C code that allows you to calculate the differential elastic scattering cross section (DESCS) of positrons and electrons hitting neutral atoms [M. Dapor, Journal of Physics B: Atomic, Molecular and Optical Physics 55, 095202 (2022)].
 
 It uses the relativistic method of partial wave expansion (Mott theory).
 
-The user should record the input data in the file "INPUT/input.txt". For example, to calculate the DESCS of 1000 eV electrons in U (atomic number Z = 92) with transverse spin polarization Px = 1 and azimuthal angle = 90 degrees, the "INPUT/input.txt" file should contain the following information [M. Dapor, Journal of Physics B: Atomic, Molecular and Optical Physics 55, 095202 (2022)]:
+The user should record the input data in the file "INPUT/input.txt". For example, to calculate the DESCS of 1000 eV electrons in U (atomic number Z = 92) with transverse spin polarization Px = 1 and azimuthal angle = 90 degrees, the "INPUT/input.txt" file should contain the following information:
 
 ------------------------
 
