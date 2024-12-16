@@ -6,6 +6,8 @@ POLARe is a C code that allows you to calculate the differential elastic scatter
 
 It uses the relativistic method of partial wave expansion (Mott theory).
 
+Since the z-axis was chosen along the direction of particle incidence, the spin polarization of the beam at Pz = 1 is longitudinal. If the beam is spin-polarized with transverse polarization, i.e., if Px and/or Py are different from zero, the DESCS depends on both the azimuthal angle and the spin polarization.
+
 The user should record the input data in the file "INPUT/input.txt". For example, to calculate the DESCS of 1000 eV electrons in U (atomic number Z = 92) with transverse spin polarization Px = 1 and azimuthal angle = 90 degrees, the "INPUT/input.txt" file should contain the following information:
 
 ------------------------
@@ -25,8 +27,6 @@ Pz 0
 Azimuth(deg) 90
 
 ------------------------
-
-Since the z-axis was chosen along the direction of particle incidence, the spin polarization of the beam at Pz=1 is longitudinal. If the beam is spin-polarized with transverse polarization, i.e., if Px and/or Py are different from zero, the DESCS depends on both the azimuthal angle and the spin polarization.
 
 The "INPUT/screening.txt" file contains all the parameters required to calculate the screening function. 
 
