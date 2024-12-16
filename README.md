@@ -61,8 +61,11 @@ Execute it with the following command:
 # Differential elastic scattering cross-section of spin-polarized positron and electron beams impinging on neutral atoms (with correlation polarization potential)
 
 Note that POLARe2 contains the correlation polarization potential according to F. Salvat, Physical Review A 68, 012708 (2003).
+
 Long-range polarization for electrons and positrons: Buckingham potential.
+
 Short-range polarization potential (electrons): J.P. Perdew and A. Zunger, Physical Review B 23, 5048 (1981).
+
 Short-range polarization potential (positrons): A. Jain, Physical Review A 41, 2437 (1990).
 
 Compile with the following command:
