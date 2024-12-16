@@ -82,7 +82,7 @@ Execute it with the following command:
 
 The program SPAS enables the calculation of the spin polarization of electron and positron beams after elastic scattering [M. Dapor, Physics Open 14, 100134 (2023)]. 
 
-It requires as input the functions S, T and U (which can be obtained with POLARe or POLARe2), the initial spin polarization, and the azimuthal angle.
+It requires as input the functions S, T, and U (which can be obtained with POLARe or POLARe2), the initial spin polarization, and the azimuthal angle.
 
 Compile with the following command:
 
