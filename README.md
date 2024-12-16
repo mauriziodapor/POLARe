@@ -28,7 +28,15 @@ Azimuth(deg) 90
 
 Since the z-axis was chosen along the direction of particle incidence, the spin polarization of the beam at Pz=1 is longitudinal. If the beam is spin-polarized with transverse polarization, i.e., if Px and/or Py are different from zero, the DESCS depends on both the azimuthal angle and the spin polarization.
 
-The "INPUT/screening.txt" file contains all the parameters required to calculate the screening function. From Z=1 to Z=17: Best fit of the Hartree-Fock atomic model [H.L. Cox Jr. and R.A. Bonham, The Journal of Chemical Physics 47, 2599 (1967)]. From Z=18 to Z=54: Best fit of the Dirac-Hartree-Fock-Slater atomic model [H.L. Cox Jr. and R.A. Bonham, The Journal of Chemical Physics 47, 2599 (1967)]. From Z=55 to Z=92: Best fit of the Dirac-Hartree-Fock-Slater atomic model [F. Salvat, J.D. Martinez, R. Mayol, J. Parellada, Physical Review A 36, 467 (1987)]. In order to be able to use the screening function of Salvat et al. also in the range of atomic numbers Z = 1-54, you must rename the file "INPUT/Salvatetal1987.txt" to "INPUT/screening.txt".
+The "INPUT/screening.txt" file contains all the parameters required to calculate the screening function. 
+
+From Z=1 to Z=17: Best fit of the Hartree-Fock atomic model [H.L. Cox Jr. and R.A. Bonham, The Journal of Chemical Physics 47, 2599 (1967)]. 
+
+From Z=18 to Z=54: Best fit of the Dirac-Hartree-Fock-Slater atomic model [H.L. Cox Jr. and R.A. Bonham, The Journal of Chemical Physics 47, 2599 (1967)]. 
+
+From Z=55 to Z=92: Best fit of the Dirac-Hartree-Fock-Slater atomic model [F. Salvat, J.D. Martinez, R. Mayol, J. Parellada, Physical Review A 36, 467 (1987)]. 
+
+In order to be able to use the screening function of Salvat et al. also in the range of atomic numbers Z = 1-54, you must rename the file "INPUT/Salvatetal1987.txt" to "INPUT/screening.txt".
 
 For electron beams, the exchange effects according to Salvat and Mayol [F. Salvat and R. Mayol, Computer Physics Communications 74, 358 (1993)] are considered using the semiphenomenological optical model of Furness and McCarthy [J.B. Furness and I.E. McCarthy, Journal of Physics B: Atomic and Molecular Physics 6, 2280 (1973)].
 
