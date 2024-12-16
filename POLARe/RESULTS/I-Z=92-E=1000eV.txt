@@ -1,0 +1,17 @@
+Z = 92
+E(eV) = 1000
+Positron/Electron(0/1) = 1
+Azimuth(deg) = 90
+
+Px = 1
+Py = 0
+Pz = 0
+
+P = 1
+
+Pn = -1 
+
+sT(A*A) = 3.82421 
+sTRA(A*A) = 0.811245 
+sTRA2(A*A) = 0.760866 
+
